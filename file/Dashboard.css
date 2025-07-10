@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+body {
+    margin: 0;
+}
+
+.banner {
+    background-image: url('/image/banner.jpg');
+    background-size: cover;
+    height: 95vh;
+}
+
+.overlay {
+    background-color: rgb(2, 2, 36);
+    background-size: cover;
+    top: 0px;
+    height: 95vh;
+    opacity: 0.85;
+}
+
+#headingBanner {
+    position: absolute;
+    left: 7vw;
+    top: 29vh;
+}
+
+#paraBanner {
+    position: absolute;
+    left: 7.2vw;
+    top: 37vh;
+    color: white;
+}
+
+#startToday {
+    position: absolute;
+    left: 7vw;
+    top: 43vh;
+    background-color: rgb(9, 9, 90);
+    opacity: 0.85;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 3vh;
+}
+.firstBox{
+    position: absolute;
+    top: 7vh;
+    left: 19vh;
+    height: 46vh;
+    width: 35vw;
+    position: relative;
+
+}
+
+.run{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    cursor: pointer;
+}
+/* .headingBox{
+    position: absolute;
+    top: 2vh;
+    left: 45vw;
+    height: 90vh;
+    width: 55vh;
+    font-size: 3vh;
+    color: blue;
+    font-style: bold;
+} */
+.runPara{
+    position: absolute;
+    top: 8vh;
+    left: 45vw;
+    height: 90vh;
+    width: 55vh;
+}
+
+.secondBox{
+    position: absolute;
+    top: 20vh;
+    left: 95vh;
+    height: 46vh;
+    width: 35vw;
+    position: relative;
+    
+}
+.liftingPara{
+    position: absolute;
+    top: 7vh;
+    right: 44vw;
+    height: 90vh;
+    width: 55vh;
+}
+
+.thirdBox{
+   position: absolute;
+    top: 32vh;
+    left: 19vh;
+    height: 46vh;
+    width: 35vw;
+    position: relative;
+
+}
+.calisthenicsPara{
+    position: absolute;
+    top: 7vh;
+    left: 45vw;
+    height: 90vh;
+    width: 55vh;
+}
