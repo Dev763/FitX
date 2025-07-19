@@ -4,8 +4,6 @@ body {
     background-color: rgb(7, 4, 33);
     color: white;
     font-family: "Roboto Slab", serif;
-    max-width: 100%;
-  overflow-x: hidden;
 
 }
 
@@ -32,8 +30,9 @@ body {
     position: relative;
     top: -91vh;
     left: 7vw;
-    gap: 75%;
+    gap: 75vw;
     max-width: 85%;
+
 }
 
 .logo-user img {
@@ -43,26 +42,34 @@ body {
 .logo-user h1 {
     font-size: 6vh;
 }
+.content-Banner{
+border: 2px solid red;
+width: 32vw;
+height: 22vh;
+position: relative;
+}
 
-.Welcome {
-    height: 20rem;
-    width: 53%;
+#headingBanner {
+    left: 7vw;
+    top: 39vh;
+    height: 62vh;
+    position: absolute;
+}
+
+#paraBanner {
+    position: absolute;
+    left: 7.5vw;
+    top: 39vh;
+    color: white;
+}
+
+#startToday {
     position: absolute;
     left: 7vw;
-    top: 30vh;
-}
-
-.Welcome h1 {
-    font-size: 7vh;
-    padding-bottom: 0.5rem;
-}
-
-
-.Welcome button {
-    border: 2px solid white;
-    position: relative;
-    top: 2rem;
-    width: 65%;
+    top: 43vh;
+    width: 12vw;
+    background-color: rgb(255, 255, 255);
+    color: white;
     opacity: 0.85;
     border-radius: 22px;
     cursor: pointer;
@@ -76,6 +83,7 @@ body {
     max-width: 95%;
     margin-bottom: 3rem;
     margin-top: 4rem;
+
 
 }
 
@@ -180,77 +188,4 @@ footer p {
     margin-left: 15%;
     margin-top: -2%;
     color: rgb(123, 122, 122);
-}
-
-@media only screen and (max-width: 640px) {
-    .banner {
-        min-width: 100%;
-        background-color: red;
-        background-size: cover;
-    }
-
-    .logo-user h1 {
-        font-size: 2rem;
-    }
-
-    .section img {
-        width: 40vw;
-        height: 7rem;
-
-    }
-    .section{
-        flex-direction: column;
-    }
-    .section.reverse{
-        flex-direction: column;
-    }
-    .section span{
-        font-size: 1vh;
-    }
-    .reverse-div{
-        font-size: 1vh;
-    }
-/* .section span{
-    flex-direction: row;
-}
-    .section span h1 {
-        padding-top: 5rem;
-        font-size: 1rem;
-    }
-
-    .section span p {
-        font-size: 0.5rem;
-        width: 12rem;
-    }
-
-    .section.reverse img {
-        width: 40vw;
-        height: auto;
-    }
-
-
-    .reverse-div h1 {
-        padding-top: 2rem !important;
-        font-size: 1rem !important;
-        left: -2px;
-
-    }
-
-    .reverse-div p {
-        font-size: 0.5rem !important;
-        width: 12rem !important;
-    } */
-
-    footer {
-        max-width: 100%;
-    }
-
-    .collaboration {
-        max-width: 20%;
-    }
-
-    .collaboration img {
-        height: 8vh;
-        width: 15vw;
-    }
 }
