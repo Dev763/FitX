@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+  
+
+
+<body class="loginbody">
+  <div class="overlay-login"></div>
+  <div class="user">
+   <h1><a href="Homepage.html">FitX</a></h1> 
+  </div>
+
+
+    <div class="login-card">
+      <form action="">
+        <h1>Login</h1>
+        <div class="username">
+            <input type="email" id="loginEmail" placeholder="Enter your Email Address" required>
+        </div>
+        <div class="password">
+            <input type="password" id="loginPassword" placeholder="Enter your Password" required>
+        </div>
+       <label class="term"><input type="checkbox" required> Agree with <a href="#">Terms & Conditions</a></label> 
+        <button class="button1">Sign In</button>
+        <br>
+        <label class="button2">Dont have an Account?<a href="#" class="register"> Register</a></label>
+      </form>
+    </div>
+
+
+    <div class="signup" style="display: none;">
+       <form action="">
+        <h1>Signup</h1>
+          <div class="Username">
+            <input type="text" placeholder="Enter Username" required>
+        </div>
+        <div class="Email">
+            <input type="email" placeholder="Enter Email" required>
+        </div>
+        <div class="Password">
+            <input type="password" placeholder="Create Password" required>
+        </div>
+        <div class="Repassword">
+            <input type="password" placeholder="Confirm Password" required>
+        </div>
+       <label class="term"><input type="checkbox" required> Agree with <a href="#">Terms & Conditions</a></label> 
+       <br>
+        
+       <button class="reg">Register</button>
+       <button class="back-to-login" onclick="signin()">Sign In</button>
+    
+      
+      </form>
+    </div>
+
+   
+
+
+
+    <script src="login.js"></script>
+</body>
+</html>
